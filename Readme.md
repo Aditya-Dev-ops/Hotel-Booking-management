@@ -6,13 +6,3 @@ Features
 User authentication: Users can sign up, log in, and log out.
 Hotel browsing: Users can browse available hotels, view details, and amenities.
 Booking management: Users can make bookings for selected dates and manage their reservations.
-
-Technologies Used
-Frontend:
-React
-React Router
-Redux (optional)
-Material-UI or Bootstrap (for UI components)
-Backend:
-Supabase
-Node.js (optional for server-side logic)
