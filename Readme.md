@@ -6,7 +6,7 @@ Features
 User authentication: Users can sign up, log in, and log out.
 Hotel browsing: Users can browse available hotels, view details, and amenities.
 Booking management: Users can make bookings for selected dates and manage their reservations.
-Admin dashboard: Admins can manage hotels, bookings, and user accounts.
+
 Technologies Used
 Frontend:
 React
