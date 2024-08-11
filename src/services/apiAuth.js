@@ -3,7 +3,7 @@ import supabase, { supabaseUrl } from "./supabase";
 
 
  export async function  signup({fullName , email  , password }){
-  const { data , error } =  await supabase.auth.signUp({
+  const { data  } =  await supabase.auth.signUp({
     email , password ,options:{
       data:{
       fullName:fullName,

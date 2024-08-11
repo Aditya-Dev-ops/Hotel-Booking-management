@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
   function ProtectedRoute({children}) {
       //.1 Loading a Authenticated user
-      const {isLoading ,user} = useUser();
+      const {isLoading , user} = useUser();
       const navigate = useNavigate();  
       //2.if there is no user Redirect to the Login Page 
       console.log(isLoading , !isLoading , user , !user); 

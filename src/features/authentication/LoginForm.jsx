@@ -43,8 +43,6 @@ import { Link } from "react-router-dom";
       </FormRowVertical>
       <FormRowVertical>
         <Button style={{padding:".3rem"}}  variations='primary' size="large" disabled={isLogin}>Login</Button>
-        <p style={{textAlign:"center"}}>or</p>
-        <Link to="/users" style={{padding:".3rem 2rem" , textAlign:"center", backgroundColor:"#6366f1" , border:"#f9fafb" , hover:{backgroundColor:"#f9fafb"}, borderRadius:"0.5rem" , color:"#fff"} }> create user</Link>
       </FormRowVertical>
     </Form>
   );
