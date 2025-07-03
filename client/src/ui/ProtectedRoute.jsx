@@ -16,11 +16,14 @@ import { useEffect } from "react";
       const {isLoading , user} = useUser();
       const navigate = useNavigate();  
       //2.if there is no user Redirect to the Login Page 
-      console.log(isLoading , !isLoading , user , !user); 
+      console.log(isLoading , !isLoading , user , !user);
+
       useEffect(()=>{ 
         console.log(!isLoading && !user);
-        if(!isLoading && !user) navigate('/login');    
-        },[user , isLoading , navigate]);
+        if(!isLoading && !user) navigate('/login');
+
+      },[user , isLoading , navigate]);
+      
       //3. while loading return spinner
       if(isLoading) return (
           <Fullpage>

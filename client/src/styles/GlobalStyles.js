@@ -183,6 +183,5 @@ const GlobalStyle = createGlobalStyle `
   --image-grayscale: 10%;
   --image-opacity: 90%;
   */
-  
 `;
 export default GlobalStyle;

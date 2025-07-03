@@ -31,6 +31,7 @@ import ProtectedRoute from "./ui/ProtectedRoute";
       <GlobalStyles/> 
       <BrowserRouter> 
       <Routes> 
+        
         <Route element={ <ProtectedRoute> <AppLayout/> </ProtectedRoute> }>
             <Route index element={<Navigate replace to="dashboard"/>}/>
             <Route path="dashboard" element={<Dashboard/>}/> 
@@ -42,8 +43,9 @@ import ProtectedRoute from "./ui/ProtectedRoute";
             <Route path="users" element={<Users/>}/> 
             <Route path="checkin/:bookingId" element={<CheckIn/>}/>
         </Route> 
-          <Route path="login" element={<Login/>}/>
-          <Route path="*" element={<PageNotFound/>}/> 
+        
+        <Route path="login" element={<Login/>}/>
+        <Route path="*" element={<PageNotFound/>}/> 
       </Routes> 
       </BrowserRouter>
       <Toaster position="top-center" gutter={12} 
